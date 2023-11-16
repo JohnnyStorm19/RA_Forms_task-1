@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-size: .9rem;
+  text-align: center;
+}
